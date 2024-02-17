@@ -1,0 +1,123 @@
+.navbar {
+    background-color: pink;
+    height: 100px;
+}
+
+
+
+.nav-link {
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav-item {
+    color: black;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+
+.makeup {
+    width: 30%;
+}
+
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    /* Centrer horizontalement */
+    align-items: center;
+    /* Centrer verticalement */
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    text-align: justify;
+    margin: 20px;
+}
+
+
+.img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #da6ea4;
+}
+
+.navbar-brand:hover {
+    color: #da6ea4;
+}
+
+.apropos {
+    font-family: 'Dancing Script', cursive;
+    text-align: justify;
+}
+
+footer {
+    background-color: pink;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: pink;
+}
+
+.card-text strong:hover {
+    color: #ff99cc;
+    /* Couleur rose-bébé */
+}
+
+.card {
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.price {
+    text-align: right;
+}
+
+.priceavant {
+    color: grey;
+    text-align: right;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    border-color: #333;
+}
+
+.gamme {
+    color: gray;
+    font-family: 'Dancing Script', cursive;
+}
+
+.fa-brands {
+    font-size: xx-large;
+}
+
+.d-inline-block {
+    border-radius: 15px;
+}

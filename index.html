@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil-Cosmetic Shop</title>
+    <link rel="icon" href="cosmetic logo.jpg">
+    <link rel="stylesheet" href="bootstrap.min.css ">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/dbfb0ac977.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="cosmetic logo.jpg" alt="Logo" width="70" height="70"
+                        class="d-inline-block align-top"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"
+                                    title="Votre panier(0)"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="se connecter.html">
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" ariaexpanded="false">
+                                <i class="fa-solid fa-globe"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                style="background-color: palevioletred;">
+                                <li><a class="dropdown-item" href="#">Arabe</a></li>
+                                <li><a class="dropdown-item" href="#">Français</a></li>
+                                <li><a class="dropdown-item" href="#">Aglais</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a class="nav-link" href="#apropos">À Propos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header><br><br>
+    <p><strong>Bienvenue chez nous, où la beauté est célébrée dans toutes ses formes, et où chaque femme est invitée à
+            briller à
+            sa manière.</p></strong><br><br>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <a href="make-up.html">
+                        <img src="makeup.jpg" alt="makeup" class="img">
+                    </a>
+                    <h2><i>Make-up</i></h2>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <a href="skin care.html">
+                        <img src="skin.jpg" alt="skincare" class="img">
+                    </a>
+                    <h2><i>Skin care</i></h2>
+                </div>
+            </div>
+        </div>
+        <hr><br>
+        <h2><u><strong>À propos de nous:</strong></u></h2>
+        <p class="apropos" id="apropos">Chez Cosmetic Shop, nous nous soucions de votre beauté, notre objectif est
+            simple : vous aider à vous sentir confiante et rayonnante en vous fournissant des produits de haute qualité
+            adaptés à votre peau à des prix abordables. Nous sommes là pour vous inspirer et vous donner l'occasion de
+            libérer la beauté qui sommeille en vous. Bienvenue chez Cosmetic Shop.</p>
+
+
+    </main>
+
+    <footer>
+        <div class="container-fluid" style="text-align: justify;">
+            <div class="row">
+                <div class="col-6" style="font-size: larger; font-family: 'Dancing Script', cursive;">
+                    <h3><strong>Suivez-nous: </strong></h3>
+                    <i class="fa-brands fa-facebook"></i>/Cosmetic_Shop.com <br>
+                    <i class="fa-brands fa-square-instagram"></i>/Cosmetic_Shop.com <br>
+                    <i class="fa-brands fa-pinterest"></i>/Cosmetic_Shop.com
+
+                </div>
+                <div class="col-6">
+
+                    <form>
+                        <h2><strong>Contactez-nous:</strong></h2>
+                        <label for="nom" class="form-label"><strong>Nom complet</strong></label>
+                        <input type="text" id="nom" class="form-control"><br>
+                        <label for="email" class="form-label"><strong>Adresse e-mail</strong></label>
+                        <input type="email" id="email" class="form-control"><br>
+                        <label for="message" class="form-label"><strong>Votre message</strong></label><br>
+                        <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea><br>
+                        <button type="button" class="btn btn-dark">Envoyer le message</button><br>
+                    </form>
+
+                </div>
+            </div>
+            <p style="text-align: center;">&copy; 2024 Cosmetic Shop. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
